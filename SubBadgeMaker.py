@@ -7,7 +7,7 @@ import glob
 
 # TODO Change the image resize method to be more dynamic. As in add a loop to do the given sizes instead of the presets
 
-default_sizes = ['18', '36', '72']
+default_sizes = ['18', '36', '72']  # Twitchs required Sub Badge sizes
 
 
 def resize_image(input_image_path, output_image_path, size):
